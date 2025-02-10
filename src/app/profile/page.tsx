@@ -1,4 +1,10 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const staticMetadata: Metadata = {
+  title: 'My Profile',
+  description: 'user own page',
+};
 
 export default function ProfilePage() {
   return (
