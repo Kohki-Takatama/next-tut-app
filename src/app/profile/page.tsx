@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Button from '../components/Button/Button';
 
 export const staticMetadata: Metadata = {
   title: 'My Profile',
@@ -11,6 +12,7 @@ export default function ProfilePage() {
     <main>
       <h1 className="text-center">My Profile</h1>
       <Link href={'/'}>Home</Link>
+      <Button>Testing</Button>
     </main>
   );
 }
